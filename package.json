@@ -2,8 +2,8 @@
   "private": true,
   "main": "async.js",
   "scripts": {
-    "lint": "./node_modules/.bin/eslint .",
-    "test": "./node_modules/.bin/mocha *.spec.js"
+    "lint": "eslint .",
+    "test": "eslint . && mocha *.spec.js"
   },
   "dependencies": {
     "assert": "1.4.1",
