@@ -5,6 +5,7 @@
     "lint": "eslint .",
     "test": "eslint . && mocha *.spec.js"
   },
+  
   "dependencies": {
     "assert": "1.4.1",
     "eslint": "4.8.0",
