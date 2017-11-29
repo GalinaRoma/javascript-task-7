@@ -40,6 +40,7 @@ function runParallel(jobs, parallelNum, timeout = 1000) {
                 callJob(job, nextJobIndex);
                 counterCalledFuncs++;
             }
+
             if (results.length === jobs.length) {
                 resolve(results);
             }
